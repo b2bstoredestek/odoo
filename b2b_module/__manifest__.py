@@ -1,5 +1,5 @@
 {
-    'name': 'B2B Store Integration',
+    'name': 'b2b_module',
     'version': '1.0',
     'depends': ['base'],
     'data': [],
