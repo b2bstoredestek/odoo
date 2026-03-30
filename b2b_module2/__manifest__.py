@@ -1,5 +1,5 @@
 {
-    'name': 'b2b_module2',
+    'name': 'odoo',
     'version': '1.0',
     'depends': ['base'],
     'summary': 'B2B Store Integration for Odoo',
