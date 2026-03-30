@@ -1,5 +1,5 @@
 {
-    'name': 'b2b_module',
+    'name': 'odoo',
     'version': '1.0',
     'depends': ['base'],
     'data': [],
