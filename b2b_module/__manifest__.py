@@ -1,7 +1,11 @@
 {
-    'name': 'odoo',
+    'name': 'B2B Store Connector', # Market'te görünecek isim
     'version': '1.0',
-    'depends': ['base'],
+    'category': 'Sales',
+    'summary': 'B2B Store Integration for Odoo',
+    'author': 'B2BStore Destek',
+    'depends': ['base', 'sale'], # Satış entegrasyonu yapacaksanız 'sale' ekleyin
     'data': [],
     'installable': True,
+    'application': True,
 }
