@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_order_form_inherit_b2b" model="ir.ui.view">
+            <field name="name">sale.order.form.b2b</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='client_order_ref']" position="after">
+                    <p class="oe_grey" attrs="{'invisible': [('client_order_ref', '=', False)]}">
+                        Bu sipariş B2BStore üzerinden aktarılmıştır.
+                    </p>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>
